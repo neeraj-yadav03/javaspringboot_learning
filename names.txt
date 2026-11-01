@@ -1,0 +1,14 @@
+mkdir project
+cd project
+dir
+dir -a
+dir /a
+dir .git
+type nul namess.txt
+type names.txt
+
+git init
+git add
+git restore --staged names.txt
+git status
+git commit
